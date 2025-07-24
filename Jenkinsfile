@@ -10,7 +10,7 @@ pipeline {
 
       stage('checkout'){
          steps {
-             git branch: 'main', url: https://github.com/PHOENIX2696/DevOps_Projects.git
+             git branch: 'main', url: 'https://github.com/PHOENIX2696/DevOps_Projects.git'
          }
       }
 
